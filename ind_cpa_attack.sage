@@ -332,7 +332,7 @@ if __name__ == "__main__":
     F = GF(p)
     a = F(2)
     dimensions = [2, 3, 4, 5]
-    instances = 10
+    instances = 100
 
     for k in dimensions:
         run_experiment(p, a, k, instances)
